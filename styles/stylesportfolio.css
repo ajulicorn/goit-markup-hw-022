@@ -62,3 +62,64 @@ font-size: 14px;
 line-height: 1.33;
 letter-spacing: 0.02em;
 color: #757575;}
+
+
+
+
+
+/*Footer styles */
+.footer{
+    background: #2F303A;
+    width: 1600px;
+    }
+    
+    .footer_web{
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        /* identical to box height */
+        letter-spacing: 0.03em;
+        color: #2196F3;
+    }
+    .footer_studio_logo{
+        color:#FFFFFF;   
+    }
+    .location{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+        
+        letter-spacing: 0.03em;
+        
+        color: #FFFFFF; 
+    }
+    .location:hover{
+    color: #2196F3;
+    }
+    .footer_email{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+        
+        letter-spacing: 0.03em;
+        
+        color: rgba(255, 255, 255, 0.6);  
+    }
+    .footer_email:hover{
+     color: #2196F3;   
+    }
+    .footer_phone{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+        
+        letter-spacing: 0.03em;
+        
+        color: rgba(255, 255, 255, 0.6);
+    }
+    .footer_phone:hover{
+        color:#2196F3;
+    }
