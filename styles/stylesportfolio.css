@@ -8,20 +8,12 @@ body{font-family: 'Raleway', sans-serif;
     top: 0px;
 }
 .logo{
-    /* WebStudio */
-position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
 
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
-/* identical to box height */
-
+line-height:1.3;
 letter-spacing: 0.03em;
 
 color: #2196F3;}
@@ -56,12 +48,28 @@ color:#2196F3}
     line-height: 1.33;
     letter-spacing: 0.02em;
     color: #2196F3;}
+    .email_link:hover{
+        color: aqua;
+       }
+       .email.link:focus{
+       color: chocolate;    
+       }
 .phone{
 font-weight: 500;
 font-size: 14px;
 line-height: 1.33;
 letter-spacing: 0.02em;
 color: #757575;}
+.phone:hover{
+    color:#2196F3;
+   }
+   .phone:focus{
+   color: chocolate;
+   }
+
+.hidden_title{
+    display: none;
+  }
 
 .link{text-decoration: none;}
 .list{list-style:none;}
@@ -71,7 +79,8 @@ color: #757575;}
     background: #2F303A;
     width: 1600px;
     }
-    
+    .address{
+        font-style: normal;}
     .footer_web{
         font-weight: 700;
         font-size: 26px;
