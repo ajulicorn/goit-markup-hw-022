@@ -1,13 +1,9 @@
-body{font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;}
+body{font-family: 'Roboto', sans-serif;}
 
 /* header styles */
 .page-header{
     background-color:#FFFFFF;
-    left: 0px;
-    top: 0px;
-}
-.logo{
+   .logo{
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
@@ -34,7 +30,6 @@ font-size: 14px;
 line-height: 1.33;
 letter-spacing: 0.02em;
 
-color: #212121s}
 .navigation:hover{
 color:#2196F3}
 
@@ -47,10 +42,10 @@ color:#2196F3}
     letter-spacing: 0.02em;
     color: #2196F3;}
     .email_link:hover{
-     color: aqua;
+     color: 
     }
     .email.link:focus{
-    color: chocolate;    
+    color:    
     }
 .phone{
 font-weight: 500;
@@ -110,9 +105,18 @@ line-height: 24px;
 letter-spacing: 0.03em;
 color: #757575;
 }
-.hidden_title{
-display:none
-}
+.hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowarp;
+    clip-path: insert(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 .our_work_header{
    
     left: 612px;
@@ -139,8 +143,6 @@ display:none
   
   .button:hover{
     background-color: aqua;}
-
-
 
 /*Our team styles */
 .ourteam{
@@ -235,3 +237,5 @@ color: #2196F3;
 }
 .address{
     font-style: normal;}
+
+
