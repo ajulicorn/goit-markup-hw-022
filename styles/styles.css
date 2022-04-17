@@ -14,13 +14,11 @@ letter-spacing: 0.03em;
 color:#212121;
 background-color: #FFFFFF;
 }
-
-
 /* header styles */
 .page-header{
     background-color:#FFFFFF;}
 .logo{
-font-family:Raleway;sans-serif;
+font-family:Raleway sans-serif;
 font-style: normal;
 font-weight:700;
 font-size: 26px;
@@ -180,13 +178,13 @@ background: #2F303A;
 width: 1600px;
 }
 .logo_footer{
-    font-family:Raleway;sans-serif;
+    font-family:Raleway sans-serif;
     font-style: normal;
     font-weight:700;
     font-size: 26px;
     line-height:1.19;
     letter-spacing: 0.03em;
-    color:white;|    
+    color:white;  
 }
 .web_footer{
 color: #2196F3;}
@@ -246,5 +244,5 @@ letter-spacing: 0.06em;
     font-size: 16px;
     line-height:1.8;
     letter-spacing: 0.03em;
-    color: #757575;    
+    color: #757575;   
 }
